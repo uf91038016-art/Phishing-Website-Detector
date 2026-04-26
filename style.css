@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background-image: url("background.jpg.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+.container {
+    text-align: center;
+    padding: 50px;
+    background: rgba(0,0,0,0.8);
+    min-height: 100vh;
+}
+
+h1 {
+    color: #00ff99;
+}
+
+.input-box {
+    margin-top: 20px;
+}
+
+input {
+    padding: 10px;
+    width: 300px;
+    border: none;
+    outline: none;
+}
+
+button {
+    padding: 10px 20px;
+    background: #00ff99;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#resultBox {
+    margin-top: 20px;
+    font-size: 20px;
+}
+.section {
+    margin-top: 50px;
+    padding: 20px;
+    background: rgba(0,0,0,0.7);
+    border-left: 4px solid #00ff99;
+    text-align: center;
+}
+
+.section img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.section h2 {
+    color: #00ff99;
+}
+
+.section p {
+    color: white;
+    font-size: 14px;
+}
+.section-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.section {
+    width: 300px;
+    padding: 20px;
+    background: rgba(0,0,0,0.7);
+    border-left: 4px solid #00ff99;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.section img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.section h2 {
+    color: #00ff99;
+}
+
+.section p {
+    color: white;
+}
